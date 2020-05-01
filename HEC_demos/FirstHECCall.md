@@ -15,6 +15,7 @@ curl -k "https://splunkserver.local:8088/services/collector" \
 ## cURL example from CLI
 
 laptop:~ workape$ curl -k "https://splunkserver.local:8088/services/collector" -H "Authorization: Splunk 6a029228-e9a8-42e0-ac8d-ab8d48ab73c4" -d '{"sourcetype": "hec_test", "event": "first time"}'
+
 {"text":"Success","code":0}
 
 With the text response of Success, we have achieved data insertion based on HEC!  Now go search for it, and remember that 
