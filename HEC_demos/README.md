@@ -7,7 +7,7 @@ Note:  All code here uses requests and json python modules.  You should get both
 are good.
 
 ## Babby's first HEC
-Using cUrl to make your first HEC call.
+Using cURL to make your first HEC call.
 
 ## Single Event into HEC
 Using python for making your first single event HEC call.
